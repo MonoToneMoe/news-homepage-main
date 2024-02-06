@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | News homepage</title>
+  <link rel="stylesheet" href="./src/output.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+</head>
+<body>
+
+
+<div class="mt-5 lg:mt-10">
+
+  <!-- navbar -->
+  <nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="./assets/images/logo.svg" class="h-8" alt="Flowbite Logo" />
+      </a>
+      <button type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" data-drawer-target="drawer-right-example" data-drawer-show="drawer-right-example" data-drawer-placement="right" aria-controls="drawer-right-example">
+          <span class="sr-only">Open main menu</span>
+          <svg width="40" height="17" xmlns="http://www.w3.org/2000/svg"><g fill="#00001A" fill-rule="evenodd"><path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z"/><path d="M0 0h40v3H0z"/></g></svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="#" class="block py-2 px-3 font-normal text-black rounded bg-transparent md:border-0 hovering">Home</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 font-normal text-black rounded bg-transparent md:border-0 hovering">New</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 font-normal text-black rounded bg-transparent md:border-0 hovering">Popular</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 font-normal text-black rounded bg-transparent md:border-0 hovering">Trending</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 font-normal text-black rounded bg-transparent md:border-0 hovering">Categories</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- body1 -->
+  <div class="lg:max-w-screen-xl mx-auto p-4 lg:flex flex-col lg:flex-row gap-8">
+    <div>
+      <img class="hidden lg:flex" src="./assets/images/image-web-3-desktop.jpg" alt="">
+      <img class=" lg:hidden w-full" src="./assets/images/image-web-3-mobile.jpg" alt="">
+      <div class="flex flex-col lg:flex-row mt-6 gap-5">
+        <div>
+          <h1 class="text-5xl lg:text-6xl font-bold">The Bright Future of Web 3.0?</h1>
+        </div>
+        <div class="flex flex-col justify-between">
+          <p class="">We dive into the next evolution of the web that claims to put the power of the platform back into the hands of the people. But is it really fulfilling its promise?</p>
+          <button class="w-44 py-3 font-semibold my-6 lg:mb-0 lg:mt-0">R E A D‎ ‎ ‎ M O R E</button>
+        </div>
+      </div>
+    </div>
+    <div class="new p-5 flex flex-col content-between">
+      <div>
+        <h1 class="text-4xl font-semibold">New</h1>
+      </div>
+      <div>
+        <h2 class="mt-5 text-white font-semibold text-xl">Hydrogen VS Electric Cars</h2>
+        <p class="mt-2 mb-6 font-light">Will hydrogen-fueled cars even catch up to EVs?</p>
+      </div>
+      <hr/>
+      <h2 class="mt-6 text-white font-semibold text-xl">The Downside of AI Artistry</h2>
+      <p class="mt-2 mb-6 font-light">What are the possible adverse effects of on-demand AI image generation?</p>
+      <hr/>
+      <h2 class="mt-6 text-white font-semibold text-xl">Is VC Funding Drying Up?</h2>
+      <p class="mt-2 mb-6 font-light">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+    </div>
+  </div>
+  
+  <!-- body2 -->
+  <div class="lg:max-w-screen-xl mx-auto flex lg:flex-row flex-col mt-5 p-4 justify-between">
+    <div class="flex gap-5 mt-6 lg:mt-0">
+      <div class="shrink-0">
+        <img class="h-36" src="./assets/images/image-retro-pcs.jpg" alt="">
+      </div>
+      <div>
+        <h1 class="font-bold text-3xl nums">01</h1>
+        <h2 class="font-bold text-xl my-1 hovering">Reviving Retro PCs</h2>
+        <p>What happens when old PCs <br/> are given modern upgrades?</p>
+      </div>
+    </div>
+    <div class="flex gap-5 mt-6 lg:mt-0">
+      <div class="shrink-0">
+        <img class="h-36" src="./assets/images/image-top-laptops.jpg" alt="">
+      </div>
+      <div>
+        <h1 class="font-bold text-3xl nums">02</h1>
+        <h2 class="font-bold text-xl my-1 hovering">Top 10 Laptops of 2022</h2>
+        <p>Our best picks for various <br/> needs and budgets.</p>
+      </div>
+    </div>
+    <div class="flex gap-5 mt-6 lg:mt-0">
+      <div class="shrink-0">
+        <img class="h-36" src="./assets/images//image-gaming-growth.jpg" alt="">
+      </div>
+      <div>
+        <h1 class="font-bold text-3xl nums">03</h1>
+        <h2 class="font-bold text-xl my-1 hovering">The Growth of Gaming</h2>
+        <p class="bottomP">How the pandemic has sparked <br/> fresh opportunities.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- drawer component -->
+<div id="drawer-right-example" class="fixed top-0 right-0 z-40 h-screen p-4 overflow-y-auto transition-transform translate-x-full bg-white w-80 dark:bg-gray-800" tabindex="-1" aria-labelledby="drawer-right-label">
+  
+ <button type="button" data-drawer-hide="drawer-right-example" aria-controls="drawer-right-example" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg absolute end-2.5 inline-flex items-center justify-center dark:hover:bg-gray-600 dark:hover:text-white" >
+  <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="#00001A" fill-rule="evenodd"><path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z"/><path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z"/></g></svg>
+    <span class="sr-only">Close menu</span>
+ </button>
+ <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+  <li>
+    <a href="#" class="block py-2 px-3 font-normal text-black rounded bg-transparent md:border-0 hovering">Home</a>
+  </li>
+  <li>
+    <a href="#" class="block py-2 px-3 font-normal text-black rounded bg-transparent md:border-0 hovering">New</a>
+  </li>
+  <li>
+    <a href="#" class="block py-2 px-3 font-normal text-black rounded bg-transparent md:border-0 hovering">Popular</a>
+  </li>
+  <li>
+    <a href="#" class="block py-2 px-3 font-normal text-black rounded bg-transparent md:border-0 hovering">Trending</a>
+  </li>
+  <li>
+    <a href="#" class="block py-2 px-3 font-normal text-black rounded bg-transparent md:border-0 hovering">Categories</a>
+  </li>
+</ul> 
+ </div>
+</div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+  <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
+</html>
